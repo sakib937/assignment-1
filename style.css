@@ -68,7 +68,33 @@ nav{
         margin-top: 400px;
         
     }
-    
+    .speaker-sec{
+        margin: 50px auto;
+        width: 90%;
+    }
+    .speaker-heading{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.speaker-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.card{
+    border: 1px solid gray;
+    border-radius: 6px;
+    /* padding: 10px; */
+}
+   .card-content{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 14px;
+    gap: 6px
+    ;
+   }
 
 
     
